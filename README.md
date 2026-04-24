@@ -150,7 +150,8 @@ So the cleanest submission story is:
 ## How To Run The Script
 
 ```bash
-python self_pruning_case_study_submission.ipynb --epochs 20 --lambda-values 1e-6 3e-6 1e-5
+1.Download self_pruning_case_study_submission.ipynb
+2.Run each code cell in Colab or any other editor.
 ```
 
 Useful arguments:
