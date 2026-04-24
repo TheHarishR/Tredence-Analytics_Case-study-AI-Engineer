@@ -66,6 +66,47 @@ pruned_weights = weight * gates
 output = F.linear(x, pruned_weights, bias)
 ```
 
+## Installation
+
+```bash
+# Run in Google Colab or local environment
+pip install torch torchvision matplotlib numpy
+```
+
+**Requirements:**
+- Python 3.8+
+- PyTorch 2.0+
+- torchvision
+- matplotlib
+- numpy
+- CUDA GPU recommended (T4 or better on Colab)
+
+---
+
+## Usage
+
+Open `AI_ENG_INTERN_Tredence.ipynb` in Google Colab and run blocks sequentially:
+
+| Block | Description |
+|-------|-------------|
+| Block 1 | Install dependencies |
+| Block 2 | Imports & device setup (auto-detects GPU) |
+| Block 3 | `PrunableLinear` layer definition |
+| Block 4 | `SelfPruningNet` model definition |
+| Block 5 | Download & load CIFAR-10 dataset |
+| Block 6 | Training & evaluation functions |
+| Block 7 | Main training loop — 3 λ values × 25 epochs |
+| Block 8 | Results table |
+| Block 9 | Training curves plot |
+| Block 10 | Gate distribution histogram |
+| Block 11 | Markdown report |
+| Block 12 | Final summary |
+
+**Tip:** Use `Runtime → Change runtime type → T4 GPU` in Colab for ~5× speedup.
+
+---
+
+
 ### Executed Notebook Variant
 
 The notebook uses a closely related but slightly different idea: neuron-level sigmoid gates for structured pruning. That version still demonstrates self-pruning behavior clearly, but the script is the safer deliverable for strict rubric compliance because the prompt explicitly asked for weight-level gates.
