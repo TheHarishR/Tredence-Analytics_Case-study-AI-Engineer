@@ -125,7 +125,8 @@ That is the central expected outcome of the case study.
 
 ### Final Gate Distribution
 
-![Best-model gate distribution](assets/best_model_gate_distribution.png)
+<img width="1149" height="585" alt="image" src="https://github.com/user-attachments/assets/6cf3f826-1145-4734-92d2-a140491fb6d5" />
+
 
 The best notebook model shows a meaningful concentration of low gate values, which is the expected signature of successful pruning pressure.
 
