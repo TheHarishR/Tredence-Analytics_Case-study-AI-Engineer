@@ -119,8 +119,9 @@ That is the central expected outcome of the case study.
 ## Figures
 
 ### Training Curves
+<img width="839" height="534" alt="image" src="https://github.com/user-attachments/assets/2e5dadab-c28f-4221-9b5d-8b3c933d063d" />
+<img width="890" height="546" alt="image" src="https://github.com/user-attachments/assets/bf2df577-c03a-430f-b4ed-ae6e8697c674" />
 
-![Structured training curves](assets/structured_training_curves.png)
 
 ### Final Gate Distribution
 
