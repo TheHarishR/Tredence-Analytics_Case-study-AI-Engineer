@@ -27,7 +27,7 @@ The notebook remains valuable as the presentation artifact because it shows the 
 
 ```text
 prune/
-|-- self_pruning_case_study_corrected_structured.ipynb
+|-- self_pruning_case_study_corrected.ipynb
 |-- SHORT_REPORT.md
 ```
 
@@ -137,7 +137,7 @@ Yes, in the practical sense, the project clearly achieves the intended outcome:
 ## How To Run The Script
 
 ```bash
-1.Download self_pruning_case_study_submission.ipynb
+1.Download self_pruning_case_study_corrected.ipynb
 2.Run each code cell in Colab or any other editor.
 ```
 
