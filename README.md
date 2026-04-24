@@ -27,11 +27,8 @@ The notebook remains valuable as the presentation artifact because it shows the 
 
 ```text
 prune/
-
 |-- self_pruning_case_study_corrected_structured.ipynb
 |-- SHORT_REPORT.md
-
-
 ```
 
 ## Architecture
