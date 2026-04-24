@@ -133,15 +133,6 @@ Yes, in the practical sense, the project clearly achieves the intended outcome:
 - pruning strength and accuracy trade off against each other
 - the final best model remains competitive after pruning
 
-One important nuance:
-
-- the notebook demonstrates structured neuron pruning
-- the standalone script demonstrates the exact weight-gating formulation from the prompt
-
-So the cleanest submission story is:
-
-- use the notebook to show the experiment, outputs, and analysis
-- use the Python script as the formal code deliverable for strict rubric matching
 
 ## How To Run The Script
 
