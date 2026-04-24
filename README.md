@@ -27,14 +27,11 @@ The notebook remains valuable as the presentation artifact because it shows the 
 
 ```text
 prune/
-|-- self_pruning_case_study.py
+
 |-- self_pruning_case_study_corrected_structured.ipynb
 |-- SHORT_REPORT.md
-|-- CASE_STUDY_EVALUATION.md
-|-- assets/
-|   |-- structured_training_curves.png
-|   `-- best_model_gate_distribution.png
-`-- build_*.py / patch_*.py helpers
+
+
 ```
 
 ## Architecture
